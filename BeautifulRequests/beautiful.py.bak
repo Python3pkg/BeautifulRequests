@@ -50,8 +50,8 @@ def get_link(page):
 
 if __name__ == '__main__':
         page = "http://pythonforengineers.com"    
-        print((get_text(page)))
+        print(get_text(page))
         print("\n\n")
-        print((get_image(page)))
+        print(get_image(page))
         print("\n\n")
-        print((get_link(page)))
+        print(get_link(page))
